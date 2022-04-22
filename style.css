@@ -1,0 +1,24 @@
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.colorPalette {
+    /* primary */
+    color: hsl(225, 100%, 94%);
+    color: hsl(245, 75%, 52%);
+    /* neutral */
+    color: hsl(225, 100%, 98%);
+    color: hsl(224, 23%, 55%);
+    color: hsl(223, 47%, 23%);
+    
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+}
