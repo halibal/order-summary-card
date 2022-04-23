@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-- ![My screenshot]()
+- ![My screenshot](./images/order_summary_card_completed_screenshot.png)
 
 ### Links
 
