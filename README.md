@@ -11,9 +11,7 @@ This is a solution to the [Order Summary Card challenge on Frontend Mentor](http
     - [Screenshot](#screenshot)
     - [Links](#links)
     - [Built with](#built-with)
-    - [Useful resources](#useful-resources)
   - [Author](#author)
-  - [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -29,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor | My Solution](https://www.frontendmentor.io/solutions/intro-component-with-signup-form-css-boostrap-js-B19rUo1Sq)
-- Live Site URL: [Halibal | Order Summary Card](https://halibal.github.io/intro-component-with-signup-form/)
+- Solution URL: [Frontend Mentor | My Solution](https://www.frontendmentor.io/solutions/order-summary-card-html-css-SJi_0efB5)
+- Live Site URL: [Halibal | Order Summary Card](https://halibal.github.io/order-summary-card/)
 
 ### Built with
 
@@ -38,14 +36,8 @@ Users should be able to:
 - CSS custom properties
 - [Flex](https://getbootstrap.com/docs/5.0/utilities/flex/)
 
-### Useful resources
-
 ## Author
 
 - LinkedIn - [Halil ALGUL](https://www.linkedin.com/in/halilagul/)
 - Frontend Mentor - [@halibal](https://www.frontendmentor.io/profile/halibal)
 - github - [halibal](https://github.com/halibal)
-
-## Acknowledgments
-
-I sincerely thank [Ayse Varlik](https://www.frontendmentor.io/profile/aysevarlik) for the tips helped me on the completion of this project.
