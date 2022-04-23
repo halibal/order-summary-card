@@ -19,6 +19,134 @@
 }
 
 body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./images/pattern-background-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: hsl(225, 100%, 94%);
     font-size: 16px;
     font-family: 'Red Hat Display', sans-serif;
+    
+}
+
+@media screen and (min-width: 576px) {
+    body {
+        background-image: url('./images/pattern-background-desktop.svg');
+    }
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 576px) {
+    main {
+        width: 90%;
+        background-color: black;
+    }
+}
+
+main {
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+    background-color: white;
+    border-radius: 1.4rem;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+main div {
+    margin: 8%;
+}
+
+h1 {
+    font-weight: 750;
+    font-size: 1.75em;
+    margin-top: 0;
+}
+
+.orderTxt {
+    color: hsl(224, 23%, 55%);
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 5%;
+    line-height: 25px;
+}
+
+.planContainerBig {
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    align-items: center;
+    max-height: 100px;
+    margin: 0 0 30px 0;
+    border-radius: 10px;
+}
+
+svg {
+    border-radius: 1.4rem 1.4rem 0 0;
+    max-width: 450px;
+    width: 100%;
+    align-items: center;
+}
+
+.svg {
+    margin-left: 6%;
+    margin-right: 0;
+}
+
+.planContainerSmall {
+    margin-left: 5%;
+}
+
+.change {
+    margin-left: auto;
+    margin-right: 7%;
+    font-weight: bold;
+}
+
+.change a:hover {
+    color: hsl(246, 82%, 69%);
+    text-decoration: none;
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+    font-weight: 550;
+    font-size: medium;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 10px 20px 10px hsl(245, 75%, 52%, 0.1);;
+}
+
+button:hover {
+    background-color: hsl(246, 82%, 69%);
+    cursor: pointer;
+}
+
+.cancel a {
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: bold;
+}
+
+.cancel a:hover {
+    color: black;
+    font-weight: 1000;
 }
